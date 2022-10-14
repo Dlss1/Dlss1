@@ -1,0 +1,119 @@
+/*!--
+Eating Well in Season main web page
+Filename:index.html
+Auther:Abdulrahman Algorain
+Date:27/9/2022
+HTML5 and CSS3 Illustrated
+Unit E, Independent Challenge 4
+
+--*/
+/* *{margin:0;padding:0;border:0;} */
+article, body, div, footer, header, h1, h2, p {
+   border: 0;
+   padding: 0;
+   margin: 0;
+}
+
+/* ***************
+.con{max-width:800px;background-color:hsl(53, 91%, 61%) box-shadow:0 0 3px blur 5px spread rgb(170, 189, 126 ); |inset;}
+************* */
+.con{
+   max-width: 800px;
+   margin: 0 auto;
+   background-color: hsl(53,91%,61%);
+   box-shadow: 0 0 3px 5px rgb(170,189,126) inset;
+}
+
+.sidebar {font-size:2.8em; line-height:0.8em; font-weight:normal;
+	
+	h2{font-size:nested}
+}
+/*header{text-align:center;background-color:rgb(161, 127, 67) ;box-shadow:0 0 3px blur 5px spread rgb(170, 189, 126 ); |inset;}
+*/
+header {
+   padding: 0 1em;
+   text-align: center;
+   background-color: rgb(161,127,67);
+   box-shadow: 0 0 3px 5px rgb(170,189,126) inset;
+}
+/*
+header h1{text-align:center;text-color:nested; font-weight: normal;font-size: 4.6em;line-height: 0.8em;}
+*/
+header h1 {
+   padding-top: 0.4em;
+   color: hsl(53,91%,61%);
+   font-weight: normal;
+   font-size: 4.6em;
+   line-height: 0.8em;
+}
+header p {
+   padding: 0.4em 0 0.8em;
+   color: floralwhite;
+}
+/*
+article{width:75%;text-align:left;box-shadow:5px 0 3px blur rgb(170, 189, 126 ); |inset shadow;}
+*/
+
+article {
+   width: 62.5%;
+   float: left;
+   background-color: floralwhite;
+   box-shadow: 5px 0 3px rgb(170,189,126) inset;
+}
+article h2 {
+   margin: 0.4em 0.4em 0;
+   color: rgb(152,192,61);
+   font-size: 2.8em;
+   font-weight: normal;
+}
+article p {
+   margin: 0 1em 0.4em 1.4em;
+}
+
+aside{width:37.5%;float:right;}
+
+aside h2 {
+   padding: 0.4em;
+   font-size: 2.8em;
+   line-height: 0.8em;
+   font-weight: normal;
+}
+aside p {
+   padding-left: 1.4em;
+}
+
+/*
+article h2{text-color:rgb(152, 192, 61); font-size:2.8em; font-weight:normal;}
+*/
+body{font-family:Arial, Helvetica, sans-serif;
+background-color:rgb(170,189,126 );}
+/*
+footer span{text-color:nested;}
+
+footer{color:rgb(161, 127, 67 );box-shadow:0 0 3px blur 5px spread rgb(170, 189, 126 ); |inset;}
+*/
+/* footer section */
+footer {
+   padding: 0.6em;
+   background-color: black;
+   color: floralwhite;
+   text-align: center;
+   clear: both;
+   box-shadow: 0 0 3px 5px rgb(170,189,126) inset;
+}
+footer p {
+   margin: 0.4em;
+}
+footer span {
+   color: rgb(161,127,67);
+}
+
+p {
+   font: 1.6em Verdana, Geneva, sans-serif;
+}
+
+html{font-size:12px;}
+
+/*
+article, article h2, aside, body, .con, footer, header, header h1, header p{text-color: #000, background-color: #fff, box-shadow:none;}
+*/
